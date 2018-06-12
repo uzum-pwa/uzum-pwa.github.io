@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.0a6bc736150ff82a861b.js",
+        "/polyfills.a8e1fcb1caf2b6c7cdae.js",
+        "/runtime.a66f828dca56eeb90e02.js",
+        "/styles.a3507c012c79005e6fa3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/homer.jpg",
+        "/assets/images/kitten404.jpg",
+        "/assets/images/test/comments1.jpg",
+        "/assets/images/test/comments2.jpg",
+        "/assets/images/test/comments3.jpg",
+        "/assets/images/test/post-detail.jpg",
+        "/assets/images/test/post-feed.jpg",
+        "/assets/styles/utils.scss",
+        "/assets/styles/vars.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "posts-api",
+      "patterns": [
+        "\\/api\\/posts"
+      ],
+      "strategy": "freshness",
+      "maxSize": 3,
+      "maxAge": 86400000,
+      "timeoutMs": 10000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "c963e548a77a0517fa1da0f01809264fbfa006bd",
+    "/assets/icons/icon-144x144.png": "2f88d7947d6db9fe5f135caec03071c6b38c7b85",
+    "/assets/icons/icon-152x152.png": "95b2f797ede1fcb281e1d7fba4bebbd6facee0f0",
+    "/assets/icons/icon-192x192.png": "e6d2c61177e86b4d31f70564dc95d675c71d52e3",
+    "/assets/icons/icon-384x384.png": "d822d7e30e6f4ac3d24790224a964614fe417709",
+    "/assets/icons/icon-512x512.png": "469e737771740b2c400b894782b2c97885fa44e7",
+    "/assets/icons/icon-72x72.png": "9d2700c2c070d00b1b62e71d2e97ca8340f7eb16",
+    "/assets/icons/icon-96x96.png": "5eedc35dfcb69070d96eed5075288d35e9a5f105",
+    "/assets/images/homer.jpg": "36770c4a073957c19a29086cd6421485b6c5cad4",
+    "/assets/images/kitten404.jpg": "ec6b93438a54b2d0fbffdb4f7744dae0fc7fab0b",
+    "/assets/images/test/comments1.jpg": "a3d3f12df186c2c6afcc8641e59b4f01fbd66faa",
+    "/assets/images/test/comments2.jpg": "1f33afc57339cb8c16210b5fa75cf850ec970528",
+    "/assets/images/test/comments3.jpg": "d5d3a95f8886e24af6f480b90391d3e02ec3a6c1",
+    "/assets/images/test/post-detail.jpg": "49545caf7916f0ab73e12808cfc0567e275b79ad",
+    "/assets/images/test/post-feed.jpg": "66203a4ee7a96facbdbb6befe1cd4a67a8d98326",
+    "/assets/styles/utils.scss": "f8324367a6bab350f8820fa98f9a95d073551560",
+    "/assets/styles/vars.scss": "acd373848f5c9379a98a79caa0cb10fcea18fb07",
+    "/favicon.ico": "34092ffb39ff0aabc1439b9fdf12aa2ee3df5d4b",
+    "/index.html": "e2439c0177b03c7ff0ff9a3d1b87f390e4ea9c79",
+    "/main.0a6bc736150ff82a861b.js": "f8b0568ed4ca00b720d946e15351a091dc336798",
+    "/polyfills.a8e1fcb1caf2b6c7cdae.js": "b7e2a904d991459f495b427233e93871eeb45c6b",
+    "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/styles.a3507c012c79005e6fa3.css": "da80ad9788ec80a5eec0fe17371443d7d084f2dd"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
